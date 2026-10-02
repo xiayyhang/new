@@ -207,8 +207,8 @@ void EXTI15_10_IRQHandler(void)
 {
   /* USER CODE BEGIN EXTI15_10_IRQn 0 */
 //  HAL_GPIO_WritePin(LED1_GPIO_Port,LED1_Pin,GPIO_PIN_SET);
-//  OLED_Clear();
-//  OLED_DrawBMP(0,0,128,6,BMP3,0);
+  OLED_Clear();
+  OLED_DrawBMP(0,0,128,6,BMP3,0);
 
 
 
